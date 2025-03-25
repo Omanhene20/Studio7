@@ -1,0 +1,15 @@
+Names of Contributors:
+Kwabena Adjei Omanhene-Gyimah
+
+Which element of fd[2] contains the read end of the pipe after pipe() successfully returns? 
+- fd[0] is the read end of the pipe.
+
+Which element of fd[2] contains the write end of the pipe after pipe() successfully returns? 
+- fd[1] is the write end of the pipe.
+
+Which argument is closed when the function dup2() succeeds? 
+- The second argument (new file descriptor) is closed if it was already open before being replaced by the first argument.
+
+Give two advantages to stream ambiguity:
+1. It allows programs to work with different data sources (e.g., files, pipes, network sockets) without needing changes to their source code.
+2. It enables modularity, allowing independent processes to be linked dynamically, making it easier to build complex systems with interchangeable components.
